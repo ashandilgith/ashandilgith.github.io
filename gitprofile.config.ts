@@ -5,11 +5,11 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // This ensures your other repos (whale watching, etc.) are pulled automatically
+      display: true, 
       header: 'GitHub Repositories',
       mode: 'automatic', 
       automatic: {
-        sortBy: 'updated', // Changed to 'updated' so your most recent code always shows first
+        sortBy: 'updated', 
         limit: 8, 
         exclude: {
           forks: true, 
@@ -21,41 +21,8 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Featured Machine Learning Models',
-      projects: [
-        {
-          title: 'TopTrip AI Core',
-          description:
-            'A diagnostic pipeline utilizing audio spectrogram analysis and machine learning to classify engine faults from sound data.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/gradient-ai-logo-template_23-2150330656.jpg', 
-          link: '',
-        },
-        {
-          title: 'Piranaware Predictive Engine',
-          description:
-            'A predictive maintenance model forecasting mechanical failures using time-series data analysis and lagging features.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/gradient-ai-logo-template_23-2150330656.jpg',
-          link: '',
-        },
-        {
-          title: 'Eskwela Grader',
-          description:
-            'An AI-powered educational pipeline designed for automated evaluation and grading of student submissions.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/gradient-ai-logo-template_23-2150330656.jpg',
-          link: '',
-        },
-        {
-          title: 'Arisi CV Classifier',
-          description:
-            'A computer vision classification model built to accurately detect and categorize various rice plant diseases from image data.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/gradient-ai-logo-template_23-2150330656.jpg',
-          link: '',
-        }
-      ],
+      header: '',
+      projects: [], 
     },
   },
   seo: { title: 'Ashan - Machine Learning Engineer', description: 'Portfolio of Ashan, Machine Learning Engineer', imageURL: '' },
@@ -87,7 +54,6 @@ const CONFIG = {
   skills: [
     'Python',
     'TensorFlow',
-    'Clojure',
     'MLflow',
     'IBM RAG',
     'GitHub Actions',
@@ -140,13 +106,13 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'IIC University of Technology (via ICBM Institute)',
+      institution: 'IIC University of Technology, Cambodia (via ICBM Institute)',
       degree: 'BSc in Information Technology',
-      from: '2023',
-      to: 'Present',
+      from: '2025',
+      to: 'Expected Dec 2026', // Updated end date
     },
     {
-      institution: 'Unknown', 
+      institution: 'Asia University Malaysia', // Update with your actual institution if needed
       degree: 'Executive MSc in Digital Marketing',
       from: '',
       to: '',
